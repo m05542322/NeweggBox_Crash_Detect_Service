@@ -15,8 +15,8 @@ def msg(warn_msg, host, status_code, header, content):
            '\n\nContent:\n' + str(content)
            
 ## Through local proxy to bypass firewll
-http_proxy  = "http://127.0.0.1:3128"
-https_proxy = "https://127.0.0.1:3128"
+#http_proxy  = "http://127.0.0.1:3128"
+#https_proxy = "https://127.0.0.1:3128"
 
 proxyDict = { 
               "http"  : http_proxy, 
